@@ -38,6 +38,9 @@ deactivate
 
 ### Windows
 
+#### Install Git
+Download git for windows if not already installed. https://git-scm.com/install/windows
+
 #### Clone the repository
 Using the Git CMD terminal type the following commands:
 ```bat
