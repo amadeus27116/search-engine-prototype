@@ -23,7 +23,7 @@ python app.py
 ```
 
 #### Note
-The app will display a url along the lines of "http://127.0.0.1:<port-number>". To view the app, enter the url into
+The app will display a url along the lines of "`http://127.0.0.1:<port-number>`". To view the app, enter the url into
 your browser to run the view the home page.
 
 #### Deactivating the app
