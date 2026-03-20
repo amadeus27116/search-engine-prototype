@@ -1,5 +1,9 @@
 # search-engine-prototype
 
+A simple, AI generated prototype of a search engine for a ecommerce website's product listings. This project serves as
+a proof of concept to demonstrate the structure and organization for how a real search engine, to be developed later,
+will actually function once implemented.
+
 ## Installation Guide
 
 ### Linux
