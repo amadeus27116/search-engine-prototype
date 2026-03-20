@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Products</title>
+</head>
+<body>
+    <h1>Search Products</h1>
+
+    <form method="get" action="{{ url_for('search') }}">
+        <input type="text" name="q" placeholder="Enter product name" value="{{ query }}">
+        <button type="submit">Search</button>
+    </form>
+
+    <ul>
+        {% for product in results %}
+            <li>
+                <a href="{{ url_for('product_page', product_id=product['id']) }}">
+                    {{ product['name'] }} - ${{ product['price'] }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if results|length == 0 %}
+        <p>No results found.</p>
+    {% endif %}
+</body>
+</html>
